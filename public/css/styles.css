@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* Heading */
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size:2.5rem;
+    line-height: 1.5;
+}
+
+/*Stock Manager */
+.item {
+  min-height: 70px;
+  text-align: left;
+  padding: 1% ;
+  border: 1px solid #4c4c4c;
+
+}
+
+.main-container{
+  padding:10% 5%
+}
+.folder-list{
+  display:inline-block;
+  padding-right: 20%;
+}
+
+.del-btn{
+  float: right;
+  margin-right: 10%;
+}
+/* Title section */
+
+#title .container-fluid{
+    padding-top:5%;
+}
+#title {
+    background-color: #1b6ca8;
+    color:#fff;
+    text-align: left;
+    font-size: 2rem;
+}
+a.nav-title{
+    font-size: 1.5rem;
+    color:#45046a;
+}
+.input-label{
+  color:black;
+  font-size: 0.9rem;
+}
+
+/* Title image */
+.stock-image{
+     width:100%;
+     position: relative;
+     padding-right:0;
+}
+#exampleModalLongTitle{
+  color:#000;
+}
+
+/* dropdown user icon */
+.dropdown-div{
+    padding: 1.5% 0 0 3%;
+}
+
+/* Navigation bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar.container-fluid{
+    padding: 3% 10% 0%;
+}
+.navbar{
+    padding: 0;
+    background-color: #1b6ca8;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* features setion */
+
+#features{
+    background-color: white;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-icon{
+    font-size: 50px;
+    color: #6886c5;
+    margin-bottom: 1rem;
+}
+
+i.feature-icon:hover{
+    color:#3797a4;
+}
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #3797a4;
+    color: #fff;
+    postion:absolute;
+    z-index: 1;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+/* Testimonial image */
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line height:1.5;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/*  Call to Action Section */
+#cta{
+    background-color: #3797a4;
+    color:#fff;
+
+}
+
+
+/* Footer section */
+#footer_1{
+  padding : 5% 2% 0.5% 2%;
+}
+.footer_1-item{
+  color:grey;
+  font-size: 0.9rem;
+}
+.footer_1-header{
+  font-size:1.2rem;
+  padding-top:0px;
+}
+.footer_1-blocks{
+   padding-top:4px; 
+}
+#footer_2{
+    background-color: #fff;
+    padding-top:0;
+    padding-bottom:0.5rem;
+
+}
+.margin-icon{
+    margin: 20px 10px;
+}

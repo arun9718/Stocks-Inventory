@@ -1,0 +1,35 @@
+
+<%- include("header"); -%>
+
+
+                
+
+
+                <!-- Stock Manager -->
+                <div class="row main-container">
+
+                  <div class="col-lg-3 ">
+                    <h1 class="big-heading">Stock Manager</h1>
+                    <form  class="" action="/" method="post">
+                      <input type="text" name="newFolder" placeholder="Add item" autocomplete="off">
+                      <button class="btn-lg btn-warning" type="submit" name="btn" >+</button>
+                    </form>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="box">
+                        <% for(var i=0; i<newFolderItems.length; i++)   { %>
+                          <div class="item">
+                            <img src="images/folder.png" alt="">
+                            <p class="folder-list"> <%= newFolderItems[i]%>   </p>
+                            <button class="btn btn-danger del-btn" type="submit" name="button">Delete</button>
+                          </div>
+                          <%   } %>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+<%- include("footer"); -%>
